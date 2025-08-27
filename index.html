@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Piano Simulator</title>
+    <link rel="icon" href="icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Cdn     -->
+    <script src="https://kit.fontawesome.com/8be8b5898e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Virtual Piano Simulator 🎹</h1>
+    <div class="container">
+        <div class="piano">
+
+            <!-- Piano Keys -->
+            <div data-note="C" class="key white">
+                <p class="whiteKeyButton">Q</p>
+            </div>
+
+            <div data-note="Db" class="key black">
+                <p class="blackKeyButton">2</p>
+            </div>
+
+            <div data-note="D" class="key white">
+                <p class="whiteKeyButton">W</p>
+            </div>
+
+            <div data-note="E" class="key black">
+                <p class="blackKeyButton">3</p>
+            </div>
+
+            <div data-note="Eb" class="key white">
+                <p class="whiteKeyButton">E</p>
+            </div>
+
+            <div data-note="F" class="key white">
+                <p class="whiteKeyButton">R</p>
+            </div>
+
+            <div data-note="Gb" class="key black">
+                <p class="blackKeyButton">5</p>
+            </div>
+
+            <div data-note="G" class="key white">
+                <p class="whiteKeyButton">T</p>
+            </div>
+
+            <div data-note="Ab" class="key black">
+                <p class="blackKeyButton">6</p>
+            </div>
+
+            <div data-note="A" class="key white">
+                <p class="whiteKeyButton">Y</p>
+            </div>
+
+            <div data-note="Bb" class="key black">
+                <p class="blackKeyButton">7</p>
+            </div>
+
+            <div data-note="B" class="key white">
+                <p class="whiteKeyButton">U</p>
+            </div>
+
+            <div data-note="high-C" class="key white">
+                <p class="whiteKeyButton">I</p>
+            </div>
+
+            <div data-note="high-Db" class="key black">
+                <p class="blackKeyButton">9</p>
+            </div>
+
+            <div data-note="high-D" class="key white">
+                <p class="whiteKeyButton">O</p>
+            </div>
+
+            <div data-note="high-Eb" class="key black">
+                <p class="blackKeyButton">0</p>
+            </div>
+
+            <div data-note="high-E" class="key white">
+                <p class="whiteKeyButton">P</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer id="footer">
+
+        <p class="footer-text">Note: This website works the best on computers.</p>
+        <a href=https://twitter.com target="_blank"><i class="social-icon fa-brands fa-twitter"></i></a>
+        <a href=https://facebook.com target="_blank"><i class="social-icon fa-brands fa-facebook-f"></i></a>
+        <a href=https://instagram.com target="_blank"><i class="social-icon fa-brands fa-instagram"></i></a>
+        <a href=https://mail.google.com target="_blank"><i class="social-icon fa-solid fa-envelope"></i></a>
+        <p class="footer-text">© Made By Shreyansh4real.</p>
+
+    </footer>
+
+
+    <!-- Audio Files -->
+    <audio id="C" src="sound/piano-c.mp3"></audio>
+    <audio id="Db" src="sound/piano-c-sharp.mp3"></audio>
+    <audio id="D" src="sound/piano-d.mp3"></audio>
+    <audio id="E" src="sound/piano-d-sharp.mp3"></audio>
+    <audio id="Eb" src="sound/piano-e.mp3"></audio>
+    <audio id="F" src="sound/piano-f.mp3"></audio>
+    <audio id="Gb" src="sound/piano-f-sharp.mp3"></audio>
+    <audio id="G" src="sound/piano-g.mp3"></audio>
+    <audio id="Ab" src="sound/piano-g-sharp.mp3"></audio>
+    <audio id="A" src="sound/piano-a.mp3"></audio>
+    <audio id="Bb" src="sound/piano-a-sharp.mp3"></audio>
+    <audio id="B" src="sound/piano-b.mp3"></audio>
+    <audio id="high-C" src="sound/piano-high-c.mp3"></audio>
+    <audio id="high-Db" src="sound/piano-high-c-sharp.mp3"></audio>
+    <audio id="high-D" src="sound/piano-high-d.mp3"></audio>
+    <audio id="high-Eb" src="sound/piano-high-d-sharp.mp3"></audio>
+    <audio id="high-E" src="sound/piano-high-e.mp3"></audio>
+
+
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
